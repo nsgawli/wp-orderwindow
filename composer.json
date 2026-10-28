@@ -1,0 +1,16 @@
+{
+	"name": "prefixwp/orderwindow",
+	"description": "Store hours and delivery slots for WooCommerce.",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"OrderWindow\\": "includes/"
+		}
+	},
+	"config": {
+		"autoloader-suffix": "OrderWindow"
+	},
+	"minimum-stability": "stable",
+	"require": {}
+}

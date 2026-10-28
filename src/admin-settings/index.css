@@ -1,0 +1,24 @@
+
+/* Narrow screens: the side menu goes above the content instead of beside it,
+   so the content gets the full width (OW-026; at 360 px it had about 180 px).
+   !important beats Flex's inline padding and gap. */
+@media (max-width: 600px) {
+	.orderwindow-settings-layout {
+		flex-direction: column;
+		padding: 1rem 0.75rem !important;
+		gap: 1rem !important;
+	}
+
+	.orderwindow-settings-layout > .orderwindow-side-menu {
+		flex-direction: row !important;
+		flex-wrap: wrap;
+		width: auto !important;
+	}
+}
+
+/* Fixed-offset time zone warning under the Store hours time-zone line, above its sub-tabs (OW-044) */
+.orderwindow-timezone-notice {
+	padding: 0.75rem 1rem;
+	border-left: 0.25rem solid var(--orderwindow-warning-color);
+	background: #fffbeb;
+}

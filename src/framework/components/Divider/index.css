@@ -1,0 +1,6 @@
+/* Divider */
+.orderwindow-divider {
+	width: 100%;
+	border-top: 0.0625rem solid #dcdcde;
+	border-bottom: 0.0625rem solid #f6f7f7;
+}

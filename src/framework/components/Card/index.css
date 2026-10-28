@@ -1,0 +1,15 @@
+.orderwindow-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+.orderwindow-card-padding {
+	padding: 20px;
+}
+
+.orderwindow-card-clickable {
+	cursor: pointer;
+}

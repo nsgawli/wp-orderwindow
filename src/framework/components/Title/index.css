@@ -1,0 +1,20 @@
+/* Title */
+.orderwindow-title {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+h3.orderwindow-title,
+.orderwindow-title.is-size-3 {
+	font-size: 1rem;
+}
+
+h4.orderwindow-title,
+.orderwindow-title.is-size-4 {
+	font-size: 0.9375rem;
+}
+
+h5.orderwindow-title,
+.orderwindow-title.is-size-5 {
+	font-size: 0.875rem;
+}

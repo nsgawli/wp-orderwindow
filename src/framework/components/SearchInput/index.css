@@ -1,0 +1,26 @@
+.orderwindow-search-input {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 0 12px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	min-width: 260px;
+	box-sizing: border-box;
+}
+
+.orderwindow-search-input svg {
+	font-size: 18px;
+	color: #646970;
+}
+
+.orderwindow-search-input input {
+	flex: 1;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	background: transparent !important;
+}

@@ -1,0 +1,33 @@
+{
+	"name": "orderwindow",
+	"version": "1.0.0",
+	"description": "Store hours and delivery slots for WooCommerce",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:i18n": "eslint --no-eslintrc -c .eslintrc.i18n.json src",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"author": "",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"@wordpress/prettier-config": "^4.20.0",
+		"@wordpress/scripts": "^30.13.0"
+	},
+	"dependencies": {
+		"@wordpress/date": "^5.57.0",
+		"@wordpress/hooks": "^4.20.0",
+		"baseline-browser-mapping": "^2.10.35",
+		"caniuse-lite": "^1.0.30001797",
+		"date-fns": "^4.1.0",
+		"react-datepicker": "^8.2.1",
+		"react-hook-form": "^7.54.2",
+		"react-icons": "^5.5.0",
+		"react-router-dom": "^7.3.0",
+		"react-select": "^5.10.1"
+	},
+	"prettier": "@wordpress/prettier-config"
+}

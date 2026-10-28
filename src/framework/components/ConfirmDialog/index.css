@@ -1,0 +1,12 @@
+/* ConfirmDialog */
+.orderwindow-confirm-dialog__message {
+	margin-bottom: 1.25rem;
+	line-height: 1.5;
+}
+
+.orderwindow-confirm-dialog__actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 0.5rem;
+}
