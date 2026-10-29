@@ -1,4 +1,4 @@
-=== Order Window – Store Hours & Delivery Slots for WooCommerce ===
+=== Order Window ===
 Contributors: nsgawli
 Tags: store hours, opening hours, vacation mode, pause orders, closed store
 Requires at least: 6.7
