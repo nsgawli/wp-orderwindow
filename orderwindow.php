@@ -1,13 +1,12 @@
 <?php // phpcs:ignore WordPress.Files.FileName.InvalidClassFileName -- The main plugin file is named after the plugin slug, not its bootstrap class.
 /**
- * Plugin Name: Order Window – Store Hours & Delivery Slots for WooCommerce
+ * Plugin Name: Order Window
  * Description: Store hours for WooCommerce: take orders only while you're open. Holiday closures, a pause switch, and a clear closed message for shoppers.
  * Version: 1.0.0
  * Author: Nikhil
  * Author URI: https://prefixwp.com/
  * Requires at least: 6.7
  * Requires PHP: 7.4
- * Tested up to: 7.1
  * Requires Plugins: woocommerce
  * WC requires at least: 10.0
  * WC tested up to: 11.2
